@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+    <body>
+		<main>
+			<div class="container">
+				<aside>
+					<header>
+						<div class="logo">
+							<a href="/"><img src="img/logo.png" alt="Logo"></a>
+							<p>v.01</p>
+						</div>
+					</header>
+					<div class="menuToggle">
+						<div class="hamburger-button">
+						  <div class="hamburger-button-top"></div>
+						  <div class="hamburger-button-middle"></div>
+						  <div class="hamburger-button-bottom"></div>
+						</div>
+					</div>				
+					<div class="menu">
+						<ul class="menu-list">
+							<li><img class="icon" src="img/key-square.svg" alt="dots icon"><a href="">Dashboard</a></li>
+							<li><img class="icon" src="img/3d-square.svg" alt="dots icon"><a href="">Product</a></li>
+							<li><img class="icon" src="img/user-square.svg" alt="dots icon"><a class="active" href="">Customers</a><img class="chevron-right" src="img/chevron-right.svg" alt="dots icon"></li>
+							<li><img class="icon" src="img/wallet-money.svg" alt="dots icon"><a href="">Income</a></li>
+							<li><img class="icon" src="img/discount-shape.svg" alt="dots icon"><a href="">Promote</a></li>
+							<li><img class="icon" src="img/message-question.svg" alt="dots icon"><a href="">Help</a></li>
+						</ul>
+					</div>
+					<div class="logo-footer">
+						<img src="img/evano.png" alt="Logo">
+						<div class="name">
+							<h4>Evano</h4>
+							<p>Project Manager</p>
+						</div>
+					</div>
+				</aside>
+				<div class="content">
+					<div class="pict">
+						<img src="img/hello.png" alt="hello">
+					</div>
+					<div class="product">
+						<div class="top-block">
+							<div class="header">
+								<h2>All Customers</h2>			 
+								<h3>Active Members<h3>
+							</div>
+							<div class="search-container">  
+								<form class="search-form">
+									<input type="search" placeholder="Search" class="search-input">
+									<button type="submit" class="search-button"><img src="img/search.png" alt="search"></button>  
+								</form>  
+							</div>
+						</div>	
+						<div class="table-block">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Customer Name</th>
+										<th>Company</th>
+										<th>Phone Number</th>
+										<th>Email</th>
+										<th>Country</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td data-label="Customer Name">Jane Cooper</td>
+										<td data-label="Company">Microsoft</td>
+										<td data-label="Phone Number">(225) 555-0118</td>
+										<td data-label="Email">jane@microsoft.com</td>
+										<td data-label="Country">United States</td>
+										<td data-label="Status"><div class="active">Active</div></td>
+									</tr>
+									<tr>
+										<td data-label="Customer Name">Floyd Miles</td>
+										<td data-label="Company">Yahoo</td>
+										<td data-label="Phone Number">(205) 555-0100</td>
+										<td data-label="Email">floyd@yahoo.com</td>
+										<td data-label="Country">Kiribati</td>
+										<td data-label="Status"><div class="inactive">Inactive</div></td>
+									</tr>
+									<tr>
+										<td data-label="Customer Name">Ronald Richards</td>
+										<td data-label="Company">Adobe</td>
+										<td data-label="Phone Number">(302) 555-0107</td>
+										<td data-label="Email">ronald@adobe.com</td>
+										<td data-label="Country">Israel</td>
+										<td data-label="Status"><div class="inactive">Inactive</div></td>
+									</tr>
+									<tr>
+										<td data-label="Customer Name">Marvin McKinney</td>
+										<td data-label="Company">Tesla</td>
+										<td data-label="Phone Number">(252) 555-0126</td>
+										<td data-label="Email">marvin@tesla.com</td>
+										<td data-label="Country">Iran</td>
+										<td data-label="Status"><div class="active">Active</div></td>
+									</tr>
+									<tr>
+										<td data-label="Customer Name">Jerome Bell</td>
+										<td data-label="Company">Google</td>
+										<td data-label="Phone Number">(629) 555-0129</td>
+										<td data-label="Email">jerome@google.com</td>
+										<td data-label="Country">Réunion</td>
+										<td data-label="Status"><div class="active">Active</div></td>
+									</tr>
+									<tr>
+										<td data-label="Customer Name">Kathryn Murphy</td>
+										<td data-label="Company">Microsoft</td>
+										<td data-label="Phone Number">(406) 555-0120</td>
+										<td data-label="Email">kathryn@microsoft.com</td>
+										<td data-label="Country">Curaçao</td>
+										<td data-label="Status"><div class="active">Active</div></td>
+									</tr>
+									<tr>
+										<td data-label="Customer Name">Jacob Jones</td>
+										<td data-label="Company">Yahoo</td>
+										<td data-label="Phone Number">(208) 555-0112</td>
+										<td data-label="Email">jacob@yahoo.com</td>
+										<td data-label="Country">Brazil</td>
+										<td data-label="Status"><div class="active">Active</div></td>
+									</tr>
+									<tr>
+										<td data-label="Customer Name">Kristin Watson</td>
+										<td data-label="Company">Facebook</td>
+										<td data-label="Phone Number">(704) 555-0127</td>
+										<td data-label="Email">kristin@facebook.com</td>
+										<td data-label="Country">Åland Islands</td>
+										<td data-label="Status"><div class="inactive">Inactive</div></td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="inf">
+								<p>Showing data 1 to 8 of 256K entries</p>
+								<div class="pagination">
+								    <a class="chevron-left" href="#">&#8249;</a>
+								    <a class="active" href="#"><img src="img/1.png" alt="1"></a>
+								    <a class="img" href="#">2</a>
+								    <a class="img" href="#">3</a>
+								    <a class="img" href="#">4</a>
+								    <a class="img" href="#">...</a>
+								    <a class="img" href="#">40</a>
+								    <a class="chevron-right" href="#">&#8250;</a>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>Подвал сайта</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>
